@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-const register = () => {
+const Register = () => {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
@@ -123,4 +123,4 @@ const register = () => {
   );
 };
 
-export default register;
+export default Register;
